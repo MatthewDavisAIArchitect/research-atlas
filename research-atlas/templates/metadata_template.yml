@@ -1,0 +1,35 @@
+# SSOT metadata template (populate once per work)
+# Convert to strict YAML if you use tooling.
+
+title: "TBD_TITLE"
+subtitle: "TBD_SUBTITLE"
+series:
+  name: "Ethical AI Series — Conservation of Intent"
+  abbreviation: "EAI-COI"
+  volume: "TBD_VOL"
+  preferred_corpus_citation: "TBD_PREPRINTS_DOI_TRILOGY_OVERVIEW"
+authors:
+  - name: "Matthew Arnold Davis"
+    orcid: "TBD_ORCID"
+    affiliation: "TBD_AFFILIATION"
+    email: "TBD_EMAIL_OR_BLANK"
+    corresponding_author: true
+abstract: "TBD_ABSTRACT"
+keywords:
+  - "ethical AI"
+  - "governance"
+  - "intent"
+  - "alignment"
+  - "decision semantics"
+  - "interpretability"
+  - "misread resistance"
+  - "socio-technical systems"
+  - "risk"
+  - "accountability"
+  - "classification-only"
+license: "CC BY 4.0"
+identifiers:
+  preprints_doi: "TBD"
+  zenodo_concept_doi: "TBD"
+  zenodo_version_doi: "TBD"
+  github_release_url: "TBD"

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the canonical Preprints DOI (once posted)."
+title: "TBD_TITLE"
+authors:
+  - family-names: "Davis"
+    given-names: "Matthew Arnold"
+    orcid: "https://orcid.org/TBD_ORCID"
+version: "v1.0"
+license: "CC-BY-4.0"
+identifiers:
+  - type: doi
+    value: "TBD_PREPRINTS_DOI"
+  - type: doi
+    value: "TBD_ZENODO_CONCEPT_DOI"
+repository-code: "TBD_REPO_URL"
