@@ -5,7 +5,7 @@ artifact_type: "Series Index"
 version: "v1.0"
 status: "ACTIVE"
 created_date: "2026-01-29"
-last_updated_date: "2026-01-29"
+last_updated_date: "2026-01-30"
 timezone: "America/Los_Angeles"
 author: "MAD"
 owner: "MAD"
@@ -26,7 +26,7 @@ tags: ["ethical-ai", "conservation-of-intent", "series", "preprints", "zenodo", 
 
 ## Preferred corpus citation (use once DOI exists)
 - **Preferred corpus citation (Trilogy Overview DOI):** `TBD_PREPRINTS_DOI_TRILOGY_OVERVIEW`
-- **Archive (Zenodo concept DOI):** `TBD_ZENODO_CONCEPT_DOI`
+- **Archive (Zenodo concept DOI):** `10.5281/zenodo.18437153`
 - **Version history (GitHub Releases):** `TBD_GITHUB_SERIES_REPO_RELEASES_URL`
 
 ---
@@ -34,9 +34,9 @@ tags: ["ethical-ai", "conservation-of-intent", "series", "preprints", "zenodo", 
 # Works
 | Work | Canonical landing (Preprints DOI) | Archive DOI (Zenodo) | GitHub bundle |
 |---|---|---|---|
-| Volume I (Doctrine) | `TBD_PREPRINTS_DOI_VOL_I` | `TBD_ZENODO_DOI_VOL_I` | `../works/eai-coi-volume-i/` |
-| Volume II (Ontology) | `TBD_PREPRINTS_DOI_VOL_II` | `TBD_ZENODO_DOI_VOL_II` | `../works/eai-coi-volume-ii/` |
-| Volume III (Limits) | `TBD_PREPRINTS_DOI_VOL_III` | `TBD_ZENODO_DOI_VOL_III` | `../works/eai-coi-volume-iii/` |
+| Volume I (Doctrine) | `TBD_PREPRINTS_DOI_VOL_I` | `10.5281/zenodo.18437154` | `../works/eai-coi-volume-i/` |
+| Volume II (Ontology) | `TBD_PREPRINTS_DOI_VOL_II` | `10.5281/zenodo.18437165` | `../works/eai-coi-volume-ii/` |
+| Volume III (Limits) | `TBD_PREPRINTS_DOI_VOL_III` | `10.5281/zenodo.18437169` | `../works/eai-coi-volume-iii/` |
 
 ---
 
