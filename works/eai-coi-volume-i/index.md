@@ -1,54 +1,25 @@
 ---
-title: "EAI‑COI — Volume I (Doctrine)"
-project: "Executive_Recruiter_Signal__Portfolio"
+title: "EAI-COI — Volume I (Doctrine)"
 artifact_type: "Work Landing"
-version: "v1.0"
 status: "ACTIVE"
-created_date: "2026-01-29"
-last_updated_date: "2026-01-30"
-timezone: "America/Los_Angeles"
-author: "MAD"
-owner: "MAD"
-confidentiality: "SANITIZED-PUBLIC-SAFE"
-canon_integrity:
-  posture: "Descriptive-only; non-prescriptive; classification-only"
-tags: ["eai-coi", "ethical-ai", "preprint", "work", "vol_i"]
+last_updated: "2026-08-07"
+tags: ["eai-coi", "ethical-ai", "vol_i"]
 ---
-<!-- PROTECTIVE_LINE: DO_NOT_REMOVE -->
 
-# Canonical landing
-- **Preprints DOI (canonical cite-this):** `TBD_PREPRINTS_DOI_VOL_I`
-- **Zenodo DOI (archive):** `10.5281/zenodo.18437154`
-- **GitHub Release bundle:** `TBD_GITHUB_RELEASE_URL_VOL_I`
+# EAI-COI — Volume I (Doctrine)
 
-# Preferred corpus citation
-- **Trilogy Overview DOI:** `TBD_PREPRINTS_DOI_TRILOGY_OVERVIEW`
+## Canonical landing
+- **Version DOI (cite this exact release):** [10.5281/zenodo.18437154](https://doi.org/10.5281/zenodo.18437154)
+- **Series concept DOI (cite the corpus):** [10.5281/zenodo.18437153](https://doi.org/10.5281/zenodo.18437153)
+- **GitHub release:** [`EAI_COI_Volume_I_v1.0.2`](https://github.com/MatthewDavisAIArchitect/ethical-ai-conservation-of-intent/releases/tag/EAI_COI_Volume_I_v1.0.2)
+- **PDF:** `EAI_COI_Volume_I_Doctrine.pdf`, attached to that release
 
-# Abstract (copy from SSOT `metadata.yml`)
-`This volume presents a law-altitude, classification-only doctrine for stabilizing ethical interpretation under
-  pressure through a sealed intent-domain. It defines admissible meaning via explicit authorized representations,
-  binding non-claims, and hard scope boundaries, and it classifies representational transformations as Conserving,
-  Non-Conserving, or Refusal (Terminal). The work provides formal definitions, an axiom set, derived invariants,
-  and admissibility/conformance clauses designed to resist mandate capture, mechanism capture, outcome capture,
-  identity inference, and mental-state inference. The doctrine is canonical and non-prescriptive: it specifies
-  lawful classification semantics without prescribing mechanisms, interfaces, enforcement posture, monitoring
-  regimes, certification, or outcome guarantees; where prerequisites are missing or scope would be exceeded,
-  Refusal is the terminal boundary condition.`
+## Series
+Part of [Ethical AI — Conservation of Intent](../../series/ethical-ai-conservation-of-intent/),
+Volumes I–III. See also Volume IV: [10.5281/zenodo.19304640](https://doi.org/10.5281/zenodo.19304640).
 
-# Keywords (copy from SSOT `metadata.yml`)
-` - "ethical AI"
-  - "AI governance"
-  - "intent"
-  - "semantic governance"
-  - "classification-only"
-  - "admissibility"
-  - "axioms"
-  - "invariants"
-  - "semantic drift"
-  - "misread resistance"
-  - "scope boundaries"
-  - "non-prescriptive doctrine"
-  # Volume-specific keywords (small delta)
-  - "law-altitude"
-  - "refusal semantics"
-  - "trace representability"`
+## Posture
+Descriptive-only · non-prescriptive · classification-only.
+
+## License
+CC BY 4.0.
