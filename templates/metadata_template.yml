@@ -1,35 +1,31 @@
-# SSOT metadata template (populate once per work)
-# Convert to strict YAML if you use tooling.
+# Metadata template — populate once per work.
+# REPLACE_* markers are slots to fill. Delete any that do not apply.
 
-title: "TBD_TITLE"
-subtitle: "TBD_SUBTITLE"
+title: "REPLACE_WITH_TITLE"
+subtitle: "REPLACE_WITH_SUBTITLE_OR_DELETE"
+
 series:
-  name: "Ethical AI Series — Conservation of Intent"
-  abbreviation: "EAI-COI"
-  volume: "TBD_VOL"
-  preferred_corpus_citation: "TBD_PREPRINTS_DOI_TRILOGY_OVERVIEW"
+  name: "REPLACE_WITH_SERIES_NAME_OR_DELETE"
+  abbreviation: "REPLACE_OR_DELETE"
+  volume: "REPLACE_OR_DELETE"
+  # Cite the corpus by its Zenodo concept DOI.
+  concept_doi: "REPLACE_WITH_ZENODO_CONCEPT_DOI"
+
 authors:
-  - name: "Matthew Arnold Davis"
-    orcid: "TBD_ORCID"
-    affiliation: "TBD_AFFILIATION"
-    email: "TBD_EMAIL_OR_BLANK"
+  - name: "Matthew A. Davis"
+    orcid: "0009-0000-4309-3874"
+    affiliation: "REPLACE_OR_DELETE"
     corresponding_author: true
-abstract: "TBD_ABSTRACT"
+
+abstract: "REPLACE_WITH_ABSTRACT"
+
 keywords:
-  - "ethical AI"
-  - "governance"
-  - "intent"
-  - "alignment"
-  - "decision semantics"
-  - "interpretability"
-  - "misread resistance"
-  - "socio-technical systems"
-  - "risk"
-  - "accountability"
-  - "classification-only"
+  - "REPLACE_WITH_KEYWORDS"
+
 license: "CC BY 4.0"
+
 identifiers:
-  preprints_doi: "TBD"
-  zenodo_concept_doi: "TBD"
-  zenodo_version_doi: "TBD"
-  github_release_url: "TBD"
+  # Zenodo is the archival and cite-this identifier for this corpus.
+  zenodo_concept_doi: "REPLACE_OR_DELETE"   # all versions of the work
+  zenodo_version_doi: "REPLACE_OR_DELETE"   # one exact release
+  github_release_url: "REPLACE_OR_DELETE"
