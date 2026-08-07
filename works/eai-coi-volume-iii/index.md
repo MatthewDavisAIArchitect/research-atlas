@@ -1,46 +1,27 @@
 ---
-title: "EAI‑COI — Volume III (Limits)"
-project: "Executive_Recruiter_Signal__Portfolio"
+title: "EAI-COI — Volume III (Limits & Closure)"
 artifact_type: "Work Landing"
-version: "v1.0"
 status: "ACTIVE"
-created_date: "2026-01-29"
-last_updated_date: "2026-01-30"
-timezone: "America/Los_Angeles"
-author: "MAD"
-owner: "MAD"
-confidentiality: "SANITIZED-PUBLIC-SAFE"
-canon_integrity:
-  posture: "Descriptive-only; non-prescriptive; classification-only"
-tags: ["eai-coi", "ethical-ai", "preprint", "work", "vol_iii"]
+last_updated: "2026-08-07"
+tags: ["eai-coi", "ethical-ai", "vol_iii"]
 ---
-<!-- PROTECTIVE_LINE: DO_NOT_REMOVE -->
 
-# Canonical landing
-- **Preprints DOI (canonical cite-this):** `TBD_PREPRINTS_DOI_VOL_III`
-- **Zenodo DOI (archive):** `10.5281/zenodo.18437153`
-- **GitHub Release bundle:** `TBD_GITHUB_RELEASE_URL_VOL_III`
+# EAI-COI — Volume III (Limits & Closure)
 
-# Preferred corpus citation
-- **Trilogy Overview DOI:** `TBD_PREPRINTS_DOI_TRILOGY_OVERVIEW`
+> **Corrected 2026-08-07.** This page previously listed `10.5281/zenodo.18437153`, which is the series **concept** DOI, not this volume's version DOI.
 
-# Abstract (copy from SSOT `metadata.yml`)
-`This volume provides the trilogy’s closure layer: it specifies the saturation points where lawful interpretation     ends, enumerates predictable misread and overclaim patterns that attempt to convert classification semantics into    mechanisms, mandates, enforcement, verification-as-proof, or outcome guarantees, and preserves Refusal (Terminal)    as the hard jurisdiction boundary. It distinguishes in-domain contradiction (classified as Non-Conserving when       expressible within scope) from out-of-jurisdiction exceedance (classified as Refusal), and it defines lawful         citation forms that keep the trilogy canonical, non-prescriptive, and classification-only. The work is               intentionally non-operational: it does not prescribe implementation, interfaces, monitoring/logging/telemetry,       enforcement posture, sanctions, certification, or outcome claims; it also refuses identity inference, mental-state   inference, behavioral inference, and any proxy substitution used to “recover intent.” Where prerequisites are        missing, prohibited observables would be required, or scope would be exceeded, the admissible output is Refusal     (Terminal), and refusal is terminal.`
+## Canonical landing
+- **Version DOI (cite this exact release):** [10.5281/zenodo.18437169](https://doi.org/10.5281/zenodo.18437169)
+- **Series concept DOI (cite the corpus):** [10.5281/zenodo.18437153](https://doi.org/10.5281/zenodo.18437153)
+- **GitHub release:** [`EAI_COI_Volume_III__v1.0.1`](https://github.com/MatthewDavisAIArchitect/ethical-ai-conservation-of-intent/releases/tag/EAI_COI_Volume_III__v1.0.1)
+- **PDF:** `EAI_COI_Volume_III.pdf`, attached to that release
 
-# Keywords (copy from SSOT `metadata.yml`)
-`  - "ethical AI"
-  - "AI governance"
-  - "intent"
-  - "semantic governance"
-  - "classification-only"
-  - "admissibility"
-  - "axioms"
-  - "invariants"
-  - "semantic drift"
-  - "misread resistance"
-  - "scope boundaries"
-  - "non-prescriptive doctrine"
-  # Volume-specific keywords (small delta)
-  - "saturation"
-  - "citation discipline"
-  - "failure vs refusal"`
+## Series
+Part of [Ethical AI — Conservation of Intent](../../series/ethical-ai-conservation-of-intent/),
+Volumes I–III. See also Volume IV: [10.5281/zenodo.19304640](https://doi.org/10.5281/zenodo.19304640).
+
+## Posture
+Descriptive-only · non-prescriptive · classification-only.
+
+## License
+CC BY 4.0.
