@@ -1,40 +1,41 @@
 ---
-title: "Verification — Atlas Integrity Gate (Preprints/Zenodo/ORCID/Scholar)"
-project: "Executive_Recruiter_Signal__Portfolio"
+title: "Verification — Atlas Integrity Gate"
 artifact_type: "Checklist"
-version: "v1.0"
+version: "v1.1"
 status: "ACTIVE"
-created_date: "2026-01-29"
-last_updated_date: "2026-01-29"
-timezone: "America/Los_Angeles"
-author: "MAD"
-owner: "MAD"
-confidentiality: "SANITIZED-PUBLIC-SAFE"
+last_updated: "2026-08-07"
 tags: ["verification", "checklist", "citation", "metadata"]
 ---
-<!-- PROTECTIVE_LINE: DO_NOT_REMOVE -->
 
 # Pass/Fail Gate: Atlas Integrity
 
 ## A) Canonical landing discipline
-- [ ] Each work page lists **Preprints DOI** as canonical cite-this landing
-- [ ] Zenodo concept DOI is listed on series index
-- [ ] GitHub is described as version history (not primary publication venue)
+- [ ] Each work page lists a **Zenodo DOI** as the cite-this landing — version DOI for an exact release, concept DOI for the corpus
+- [ ] Series index lists the Zenodo **concept** DOI
+- [ ] GitHub is described as version history, not a primary publication venue
+- [ ] Where no DOI has been minted, the page says so plainly rather than showing a placeholder
 
-## B) Metadata parity (SSOT enforcement)
-- [ ] Title spine matches across: Preprints, Zenodo, GitHub landing pages, CITATION.cff
+## B) Metadata parity
+- [ ] Title spine matches across Zenodo, the GitHub landing page, and `CITATION.cff`
 - [ ] Author string matches exactly
-- [ ] Keyword spine ordering matches exactly across volumes
+- [ ] Keyword spine ordering matches across volumes in a series
 
-## C) PDF hygiene (Scholar inclusion probability)
+## C) PDF hygiene
 - [ ] Searchable/selectable text
 - [ ] Title + author line on page 1
 - [ ] References section present
+- [ ] Stated licence in the PDF front matter matches the repository `LICENSE`
 
 ## D) Identifier resolution
-- [ ] Preprints DOI resolves and shows correct title/authors
-- [ ] Zenodo DOI resolves and shows correct title/authors
-- [ ] ORCID entry uses Preprints DOI as primary identifier (after posting)
+- [ ] Every DOI on the page resolves, and shows the expected title and authors
+- [ ] Version DOIs are distinguished from the concept DOI and not used interchangeably
+- [ ] ORCID record lists the work
 
 ## E) Anti-duplication
-- [ ] No “competing primary PDFs” on multiple unrelated landing pages
+- [ ] No competing primary PDFs across multiple landing pages
+- [ ] This index links to source repos; it does not host their release assets
+
+## F) Public-surface hygiene
+- [ ] No internal project tags, confidentiality classes, author codes, or timezones in front matter
+- [ ] No internal identifiers or file paths
+- [ ] No links to private or non-existent repositories
