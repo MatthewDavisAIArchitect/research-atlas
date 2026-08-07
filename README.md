@@ -1,39 +1,47 @@
-# Research Atlas (Release‑First Corpus Index)
+# Research Atlas (Release-First Corpus Index)
 
-This repository is the **front door** for the research corpus: a recruiter/reviewer‑legible, citation‑friendly index that points to canonical publication landings (Preprints DOI), archival DOIs (Zenodo), and versioned bundles (GitHub Releases).
+The **front door** for the research corpus: a reviewer-legible, citation-friendly index
+pointing at archival DOIs (Zenodo) and versioned bundles (GitHub Releases).
 
 ## What this repo is
-- A **navigation surface** (stable, low‑churn)
-- A **citation consolidation lens** (“how to cite the corpus”)
-- A **metadata + verification hub** (templates and pass/fail checks)
+- A **navigation surface** (stable, low-churn)
+- A **citation consolidation lens** ("how to cite the corpus")
+- A **metadata hub** (templates and verification gates)
 
 ## What this repo is not
 - Not an implementation guide
 - Not an operational playbook
-- Not a disclosure surface for protected kernels
+- Not a primary-PDF host — the source repos own their releases
 
-## Canonical landing discipline (prevents duplicate indexing)
-- **Canonical cite-this landing:** Preprints.org DOI page (once posted)
-- **Archival DOI:** Zenodo concept DOI (+ version DOIs for exact releases)
-- **GitHub:** index + release history (avoid competing “primary PDFs”)
+## Canonical landing discipline
+- **Cite this:** the Zenodo **concept DOI** for a series, or a **version DOI** for an exact release
+- **GitHub:** index + release history — this repo never hosts competing "primary PDFs"
+- Each work below lives in its own repo, which remains the authoritative source for its files
+
+## The corpus
+
+| Series / Work | Archive DOI (Zenodo) | Source repo |
+|---|---|---|
+| **Ethical AI — Conservation of Intent** (Vols I–III) | [10.5281/zenodo.18437153](https://doi.org/10.5281/zenodo.18437153) *(concept)* | [`ethical-ai-conservation-of-intent`](https://github.com/MatthewDavisAIArchitect/ethical-ai-conservation-of-intent) |
+| **Conservation of Intent — Volume IV** | [10.5281/zenodo.19304640](https://doi.org/10.5281/zenodo.19304640) | *(Zenodo deposit)* |
+| **Intent-Aware Continuity in Evolving AI Systems** | [10.5281/zenodo.18703583](https://doi.org/10.5281/zenodo.18703583) | [`theseus-continuity-framework`](https://github.com/MatthewDavisAIArchitect/theseus-continuity-framework) |
+| **Technical Equity Trilogy** (Vols I–III) | *not yet minted* | [`technical-equity-trilogy`](https://github.com/MatthewDavisAIArchitect/technical-equity-trilogy) |
 
 ## Start here
-- **Series:** `./series/`
-- **Works:** `./works/`
-- **Templates:** `./templates/`
-- **Verification gates:** `./verification/`
-- **Bibliography exports:** `./indices/`
+- **Series:** [`./series/`](./series/)
+- **Works:** [`./works/`](./works/)
+- **Templates:** [`./templates/`](./templates/)
+- **Verification gates:** [`./verification/`](./verification/)
 
-## Recommended pinned repos (for reviewers)
+## For reviewers
 
-For fastest review, start with this repo, then open the series repo releases.
+Start here, then open the series repo releases:
 
-Pin these repos (public):
-1. `research-atlas` (this repo)
-2. `ethical-ai-conservation-of-intent` (series repo; releases)
-3. `strategic-initiatives` (executive-safe briefs)
+1. [`research-atlas`](https://github.com/MatthewDavisAIArchitect/research-atlas) (this repo)
+2. [`ethical-ai-conservation-of-intent`](https://github.com/MatthewDavisAIArchitect/ethical-ai-conservation-of-intent) — 7 releases, PDFs attached
+3. [`theseus-continuity-framework`](https://github.com/MatthewDavisAIArchitect/theseus-continuity-framework) — full source, one-command reproduction
 
 ---
 
-### Contact / Availability
-Public inquiries: *matthewdavis.ai.architect@gmail.com*
+### Contact
+Public inquiries: *matthewdavis.ai.architect@gmail.com* · ORCID: [0009-0000-4309-3874](https://orcid.org/0009-0000-4309-3874)
